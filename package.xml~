@@ -13,11 +13,12 @@
   	<build_depend>std_msgs</build_depend>
 	<build_depend>geometry_msgs</build_depend>
 	<build_depend>message_generation</build_depend>
+	<buid_depend>catkin_simple</build_depend>
 
   	<run_depend>roscpp</run_depend>
   	<run_depend>std_msgs</run_depend>
 	<run_depend>geometry_msgs</run_depend>
 	<run_depend>message_generation</run_depend>
-	<run_depend>sensor_msgs</run_depend>
+	<run_depend>catkin_simple</run_depend>
 	
 </package>

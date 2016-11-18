@@ -19,11 +19,4 @@ generate_messages(
   geometry_msgs
 )
 
-catkin_package(
-  CATKIN_DEPENDS 
-  geometry_msgs
-  roscpp
-)
-   
-
 include_directories(include ${catkin_INCLUDE_DIRS})
